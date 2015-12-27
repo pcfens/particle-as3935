@@ -1,0 +1,8 @@
+{
+  "name": "AS3935",
+  "author": "Phil Fenstermacher <phillip.fenstermacher@gmail.com>",
+  "license": "Apache-2.0",
+  "version": "0.1.0",
+  "description": "A library to communicate with and control an AS3935 lightning
+  sensor over I2C."
+}
