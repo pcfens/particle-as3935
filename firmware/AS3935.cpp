@@ -35,7 +35,7 @@ void AS3935::AS3935::begin()
   _registerWrite(0x08, 0xE0, 0x00);
 
   attachInterrupt(_interruptPin, &AS3935::_handleInterrupt, this, RISING);
-  _interruptWaiting = false;
+  _interruptWaiting = digitalRead(_interruptPin);
 }
 
 /**
