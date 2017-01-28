@@ -1,0 +1,12 @@
+How to very this library:
+
+Connect an AS3935 lightning sensor as specified in README.md.
+
+Flash the serial-detector example (possibly modified to the correct I2C address
+and interrupt pin).
+
+  particle flash my_device examples/serial-detector
+
+Watch for events in the serial console. Create some RF activity (I move a cell
+phone around the sensor, hopefully while transferring data). Events should
+show up in the serial console.
